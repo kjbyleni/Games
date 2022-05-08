@@ -20,6 +20,7 @@ public class Food : MonoBehaviour
         fixedPosition = new Vector3(xPos, yPos, -2);
         Debug.Log(fixedPosition);
         moveSpeed = initialSpeed + speedStep;
+        transform.position = fixedPosition;
 
     }
 

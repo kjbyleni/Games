@@ -7,7 +7,6 @@ public class SnakeController : MonoBehaviour
 {
     public TextMesh score;
     public GameObject tryAgain;
-    public GameObject tailPoint;
     public List<GameObject> enemies;
     public float speedStep;
     public float initialSpeed;
